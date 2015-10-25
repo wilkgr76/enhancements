@@ -13,7 +13,7 @@ minetest.register_tool(":default:sword_wood", {
 })
 minetest.register_tool(":default:sword_stone", {
 	description = "Stone Sword",
-	inventory_image = "default_tool_stonesword.png",
+	inventory_image = "enhancements_tool_stonesword.png",
 	tool_capabilities = {
 		full_punch_interval = 1.2,
 		max_drop_level=0,
@@ -24,6 +24,7 @@ minetest.register_tool(":default:sword_stone", {
 	},
 	wield_scale = {x=1.5, y=2, z=1},
 })
+)
 minetest.register_tool(":default:sword_steel", {
 	description = "Steel Sword",
 	inventory_image = "default_tool_steelsword.png",
