@@ -1,7 +1,7 @@
 minetest.register_node(":default:obsidian_glass", {
 	description = "Obsidian Glass",
 	drawtype = "glasslike_framed_optional",
-	tiles = {"default_obsidian_glass.png", "default_obsidian_glass_detail.png^[colorize:#0001"},
+	tiles = {"default_obsidian_glass.png", "blank.png^[colorize:#0001"},
 	paramtype = "light",
 	is_ground_content = false,
 	sunlight_propagates = true,
