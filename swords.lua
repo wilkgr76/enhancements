@@ -1,3 +1,6 @@
+sizex = 1.5
+sizey = 2
+
 minetest.register_tool(":default:sword_wood", {
 	description = "Wooden Sword",
 	inventory_image = "default_tool_woodsword.png",
@@ -9,7 +12,7 @@ minetest.register_tool(":default:sword_wood", {
 		},
 		damage_groups = {fleshy=2},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
 minetest.register_tool(":default:sword_stone", {
 	description = "Stone Sword",
@@ -22,7 +25,7 @@ minetest.register_tool(":default:sword_stone", {
 		},
 		damage_groups = {fleshy=4},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
 minetest.register_tool(":default:sword_steel", {
 	description = "Steel Sword",
@@ -35,7 +38,7 @@ minetest.register_tool(":default:sword_steel", {
 		},
 		damage_groups = {fleshy=6},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
 minetest.register_tool(":default:sword_bronze", {
 	description = "Bronze Sword",
@@ -48,7 +51,7 @@ minetest.register_tool(":default:sword_bronze", {
 		},
 		damage_groups = {fleshy=6},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
 minetest.register_tool(":default:sword_mese", {
 	description = "Mese Sword",
@@ -61,7 +64,7 @@ minetest.register_tool(":default:sword_mese", {
 		},
 		damage_groups = {fleshy=7},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
 minetest.register_tool(":default:sword_diamond", {
 	description = "Diamond Sword",
@@ -74,5 +77,5 @@ minetest.register_tool(":default:sword_diamond", {
 		},
 		damage_groups = {fleshy=8},
 	},
-	wield_scale = {x=1.5, y=2, z=1},
+	wield_scale = {x=sizex, y=sizey, z=1},
 })
